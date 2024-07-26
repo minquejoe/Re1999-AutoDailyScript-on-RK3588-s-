@@ -12,3 +12,13 @@ I RKNN: [08:37:06.542] RKNN Model Information, version: 6, toolkit version: 2.0.
 ```
 
 运行`run.py`进行每日活动
+
+安卓容器镜像可使用：https://github.com/CNflysky/redroid-rk3588
+
+保存图片需要手动创建文件夹：`screenShot`
+
+# RKNN：
+
+https://github.com/airockchip/rknn_model_zoo
+
+https://github.com/airockchip/rknn-toolkit2
