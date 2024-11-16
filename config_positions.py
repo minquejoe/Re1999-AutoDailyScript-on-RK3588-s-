@@ -13,14 +13,14 @@ menu = {
         'to_dust.py':{'x':1600, 'y':440}, 
         'to_mailbox.py':{'x':115, 'y':280},
         'to_daily_weekly.py':{'x':120, 'y':400},
-        'to_juke.py':{'x':330, 'y':110},
+        'to_juke.py':{'x':325, 'y':110},        # icon第一位置，无装饰
         }
 menu_quit = menu
 
 wilders_fullview = {'x':1040, 'y':295}
 wilders_harvest = {'x1':1740, 'y1':330, 'x2':1740, 'y2':630}
 
-battle_story = {'x':870, 'y':970}
+battle_story = {'x':755, 'y':970}
 battle_resource_01 = {
         'to_mind.py':{'x':550, 'y':525}, 
         'to_gold.py':{'x':1320, 'y':525},       # 识别不出 battle_resource_02 ，此处用 01 代替

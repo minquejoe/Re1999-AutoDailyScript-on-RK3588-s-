@@ -51,9 +51,9 @@ task_seq = [
 # ==========================
 #      Alert发送邮箱设置
 # ==========================
-SOURCE_MAIL_ADDR = "905503222@qq.com"
-SOURCE_MAIL_PASS = "dtqyizmwhejxbbdd"
-TARGET_MAIL_ADDR = "1049484472@qq.com"
+SOURCE_MAIL_ADDR = "xxx"
+SOURCE_MAIL_PASS = "xxx"
+TARGET_MAIL_ADDR = "xxx"
 
 # ==========================
 #       mobileNet相关

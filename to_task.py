@@ -20,8 +20,8 @@ def save_pic(PIC_SAVE_FLAG):
         if num_pics < PIC_SAVE_MAX:
             # Move and rename the screenshot
             timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-            new_screenshot_name = f"screenshot{timestamp}.png"
-            shutil.move("screenshot.png", os.path.join(PIC_SAVE_PATH, new_screenshot_name))
+            new_screenshot_name = f"screenshot{timestamp}.jpg"
+            shutil.move("screenshot.jpg", os.path.join(PIC_SAVE_PATH, new_screenshot_name))
             print(f'{new_screenshot_name} - pic saved!')
         else:
             print('Maximum number of pics reached, not saving any more pics.')
